@@ -51,10 +51,6 @@ function clear_for_next_question() {
   }
 }
 
-document.getElementById("question").innerHTML = questionarray[questioncount].question;
-
-document.getElementById("choices").innerHTML = questionarray[questioncount].choices;
-
 document.getElementById("submitter").onclick = process_answer_submission;
 
 document.getElementById("next").onclick = clear_for_next_question;
